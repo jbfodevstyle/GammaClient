@@ -7,37 +7,52 @@
     <title>Gamma Client - The Best Client in 2023</title>
     <style>
         body {
-            background-color: purple;
-            color: black;
-            font-family: Arial, sans-serif;
+            background-color: #4B0082; /* Dark Purple */
+            color: #FFFFFF; /* White */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
         header {
-            background-color: black;
-            padding: 10px;
+            background-color: #000000; /* Black */
+            padding: 20px;
             text-align: center;
         }
 
         #main-content {
             text-align: center;
-            padding: 50px;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #663399; /* Rebecca Purple */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            margin: 20px;
         }
 
         #credits {
             display: none;
-            color: white;
+            color: #FFFFFF; /* White */
         }
 
         #download-button {
             display: block;
             margin-top: 20px;
-            padding: 10px 20px;
-            background-color: black;
-            color: white;
+            padding: 15px 30px;
+            background-color: #000000; /* Black */
+            color: #FFFFFF; /* White */
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #download-button:hover {
+            background-color: #2E2E2E; /* Darker Black on hover */
         }
     </style>
 </head>
