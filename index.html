@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamma Client - The Best Client in 2023</title>
+    <style>
+        body {
+            background-color: purple;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #main-content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        #credits {
+            display: none;
+            color: white;
+        }
+
+        #download-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gamma Client</h1>
+        <p>The Best Client in 2023</p>
+    </header>
+
+    <div id="main-content">
+        <h2>Christmas Edition</h2>
+        <p>Click below to reveal the creators:</p>
+        <button onclick="showCredits()">Who made this?</button>
+        <div id="credits">
+            <p>Created by:</p>
+            <ul>
+                <li>Fly</li>
+                <li>WitheringAway</li>
+                <li>Jbfoo000</li>
+                <li>Maz</li>
+            </ul>
+        </div>
+        <a id="download-button" href="https://jbfoodevstyle.github.io/GammaClient/playerchrismas.exe" target="_blank">Download Recent</a>
+    </div>
+
+    <script>
+        function showCredits() {
+            var credits = document.getElementById('credits');
+            credits.style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
